@@ -37,7 +37,7 @@ The `func_Ours.m` runs the proposed method. It can be used for other tasks as we
     `vinitial`: the image cube of initialization.
 
 ### [3] Note
-The value of input images should be 0 to 255. 
+The value of input images should range from 0 to 255. 
 
 The `func_DCT.m` is memory consuming for 'toy' dataset with size of 256x256x6. Please ensure at least 32GB memory left.
 
