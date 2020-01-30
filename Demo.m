@@ -39,7 +39,7 @@ end
          [vgaptv,psnr_gaptv,ssim_gaptv,tgaptv]  = func_GAPTV(mask,meas,orig);
          saveGAPTVresult(para,vgaptv,num_pic,psnr_gaptv,ssim_gaptv,tgaptv,resultdir);
 %% [2.4] Ours reconstruction
-         [vours,psnr_ours,ssim_ours,tours] = func_Ours(mask,m,orig,vgaptv);
+         [vours,psnr_ours,ssim_ours,tours] = func_Ours(mask,m,orig,255.*vgaptv);
          saveOursresult(para,vours,num_pic,psnr_ours,ssim_ours,tours,resultdir);
          
          
