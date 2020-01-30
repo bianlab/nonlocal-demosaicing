@@ -23,7 +23,7 @@ Choose datasets of different cases by these two parameters:
 
     `type`: change the arrangement of MSFA, including random MSFA、regular MSFA and btes MSFA;
   
-    `num_pic`: change number of spectral picture for simulation, ranging from 4 to 9.
+    `num_pic`: change the number of spectral picture for simulation, ranging from 4 to 9.
   
 ### [2] The proposed method
 The `func_Ours.m` runs the proposed method. It can be used for other tasks as well and only requires inputs of:
