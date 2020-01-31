@@ -8,7 +8,7 @@ par.ncol = ncol;
 par.picks = mask;
 par.y = m;    
 par.ori_im = orig;% For computing PSNR only
-[vours,K,tours]      =   NLR_Reconstruction( par, rec_im0); 
+[vours,K,tours]      =   Nonlocal_demosaicing( par, rec_im0); 
 
 for i = 1:size(vours,3)
     psnr_ours(i)     =  psnr( vours(:,:,i)./255, par.ori_im(:,:,i)./255, max(max(par.ori_im(:,:,i)))./255 );
