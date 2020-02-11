@@ -1,6 +1,6 @@
 # nonlocal-demosaicing
 
-This repository contains the code for a general demosaicing method via joint nonlocal optimization.
+This repository contains the code for a general demosaicing method via joint nonlocal optimization. For more information, please contact Liheng Bian (bian at bit dot edu dot cn).
 
 ![image](https://github.com/bianlab/nonlocal-demosaicing/raw/master/results/Simulation-results.png)
 
